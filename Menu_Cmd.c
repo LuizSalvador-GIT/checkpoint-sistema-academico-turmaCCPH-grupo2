@@ -73,9 +73,18 @@ int main() {
                 }
                 break;
 
-            case 5:
-                printf("Opcao 5 selecionada.\n");
+            case 5: {
+                float coef_a, coef_b;
+                printf("\n--- CALCULAR DERIVADA ---\n");
+                printf("Funcao do tipo f(x) = ax + b\n");
+                printf("Digite o coeficiente a: ");
+                scanf("%f", &coef_a);
+                printf("Digite o coeficiente b: ");
+                scanf("%f", &coef_b);
+                printf("f(x)  = %.2fx + %.2f\n", coef_a, coef_b);
+                printf("f'(x) = %.2f\n", coef_a);
                 break;
+            }
 
             case 6:
                 printf("Saindo do sistema...\n");

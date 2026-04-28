@@ -6,6 +6,8 @@ int main() {
     int notasInseridas = 0;
     int mediaCalculada = 0;
 
+    // Menu Sistema
+    
     do {
         printf("\n==============================\n");
         printf("     SISTEMA EQUIPE XYZ\n");

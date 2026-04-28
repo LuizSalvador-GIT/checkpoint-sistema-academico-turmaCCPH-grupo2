@@ -4,6 +4,8 @@ float calcularMedia(float nota1, float nota2) {
     return (nota1 + nota2) / 2.0;
 }
 
+// Media corrigida
+
 int main() {
     float nota1, nota2, media;
 

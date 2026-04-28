@@ -1,7 +1,7 @@
 #include <stdio.h> // stdio corrigido
  
 int main() {
-    float nota1, nota2, media
+    float nota1, nota2, media; //ponto e virgula adicionado
  
     printf("Digite a primeira nota: ");
     scanf("%f", &nota1);

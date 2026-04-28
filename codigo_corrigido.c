@@ -14,7 +14,7 @@ int main() {
     if (media >= 6) {
         printf("Aluno aprovado\n");
     } else {
-        printf("Aluno reprovado\n");
+        printf("Aluno reprovado\n"); //teste realizado
     }
  
     return 0;

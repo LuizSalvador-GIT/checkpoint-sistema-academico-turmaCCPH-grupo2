@@ -15,7 +15,7 @@ int main() {
         printf("Aluno aprovado\n");
     } else {
         printf("Aluno reprovado\n"); //teste realizado
-    }
+    } //codigo 100% corrigido e funcional
  
     return 0;
 }

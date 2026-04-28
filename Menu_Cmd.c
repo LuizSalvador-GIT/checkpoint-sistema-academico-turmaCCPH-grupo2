@@ -96,9 +96,9 @@ int main() {
                 } else {
                     printf("Opcao invalida! Digite um numero entre 1 e 6.\n");
                 }
-        }
+        } // Teste da interface realizado
 
     } while (opcao != 6);
 
     return 0;
-}
+}   
